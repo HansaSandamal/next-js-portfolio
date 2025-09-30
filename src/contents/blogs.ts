@@ -4,6 +4,13 @@ export const BLOG_BASE_URL = "https://medium.com/@hansasandamal/";
 
 export const blogs: Blogs[] = [
   {
+    title: 'My First Experience with Gemini AI Studio: Building EchoVerse — AI Voice Journal',
+    excerpt: 'How I used Gemini AI Studio to turn a voice-first journaling idea into a working app.',
+    date: '2025-09-29',
+    readTime: '3 min read',
+    slug: 'my-first-experience-with-gemini-ai-studio-building-echoverse-ai-voice-journal-2d03a95d7e41',
+  },
+  {
     title: 'Host Your CV for Free on Netlify',
     excerpt: 'A Simple Step-by-Step Guide for Everyone',
     date: '2024-01-09',
