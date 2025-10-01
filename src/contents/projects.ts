@@ -8,7 +8,7 @@ export const projects: Project[] = [
     technologies: ['Next.js', 'Tailwind CSS', 'react-chartjs-2', 'Redux Toolkit', 'TypeScript', 'react hooks'],
     githubLink: 'https://github.com/HansaSandamal/finance-tracker.git',
     demoLink: 'https://finance-tracker-five-drab.vercel.app/',
-    image: '/projects/finance-tracker.png',
+    image: '/projects/finance-tracker.PNG',
   },
   {
     title: 'EchoVerse - AI Voice Journal',
