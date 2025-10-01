@@ -3,6 +3,14 @@ import { Project } from "@/types";
 
 export const projects: Project[] = [
   {
+    title: 'Finance Tracker',
+    description: 'A simple and intuitive web app to track income, expenses, and savings. Built with React, TypeScript, and Redux, it helps users categorize transactions, visualize spending patterns, and manage personal finances with ease.',
+    technologies: ['Next.js', 'Tailwind CSS', 'react-chartjs-2', 'Redux Toolkit', 'TypeScript', 'react hooks'],
+    githubLink: 'https://github.com/HansaSandamal/finance-tracker.git',
+    demoLink: 'https://finance-tracker-five-drab.vercel.app/',
+    image: '/projects/finance-tracker.png',
+  },
+  {
     title: 'EchoVerse - AI Voice Journal',
     description: 'An intelligent audio diary that turns your spoken thoughts into structured, actionable insights for self-discovery. Features AI-powered analysis, pattern detection, and a modern, voice-first interface.',
     technologies: ['Google Ai Studio', 'Google Auth', 'Gemini 1.5'],
