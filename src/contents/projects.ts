@@ -40,8 +40,8 @@ export const projects: Project[] = [
       'Google GenAI SDK',
       'Tailwind CSS'
     ],
-    aistudioLink: 'https://sinhala-handwriting-to-text-converter-569994134059.asia-southeast1.run.app',
-    demoLink: 'https://next-js-portfolio-hansa.vercel.app/',
+    aistudioLink: 'https://ai.studio/apps/0c8691b3-6e87-489b-9d5b-3fa415b43f45?fullscreenApplet=true',
+    demoLink: 'https://sinhala-handwriting-to-text-converter-569994134059.asia-southeast1.run.app',
     image: '/projects/SinhalaOCR.PNG',
   },
   {
