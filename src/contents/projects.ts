@@ -3,6 +3,48 @@ import { Project } from "@/types";
 
 export const projects: Project[] = [
   {
+    title: 'NexaAdmin',
+    description: 'A commercial-grade React 19 & TypeScript admin dashboard template for SaaS platforms, e-commerce backends, and enterprise tools.',
+    technologies: ['React 19', 'TypeScript', 'Tailwind CSS v4', 'Redux Toolkit', 'Vitest Testing', 'Dark & Light Mode', 'Recharts'],
+    githubLink: 'https://github.com/HansaSandamal/NexaAdmin.git',
+    demoLink: 'https://next-js-portfolio-hansa.vercel.app/',
+    image: '/projects/NexaAdmin.PNG',
+  },
+  {
+    title: 'LaughFrame AI',
+    description: 'Turn Your Photo Into a Hilarious Caricature - Upload yourself, your partner, or your whole group and create a ridiculous hand-drawn caricature in seconds.',
+    technologies: ['React', 'TypeScript', 'Vite', 'Node.js', 'Express.js', 'Gemini API', 'Google GenAI SDK', 'Cloudflare Workers AI', 'Tailwind CSS'],
+    aistudioLink: 'https://ai.studio/apps/9fd725dd-0913-4ad5-9e1b-1e035a67023f',
+    demoLink: 'https://laughframe-ai-569994134059.asia-southeast1.run.app',
+    image: '/projects/LaughFrameAI.PNG',
+  },
+  {
+    title: 'ANIMEVERSE',
+    description: 'Create legendary anime characters, rank them on the Power Board, discover your anime soul, and battle for supremacy in the ultimate creator lab.',
+    technologies: ['React', 'TypeScript', 'Google Auth', 'Tailwind CSS', 'Framer Motion', 'supabase'],
+    githubLink: 'https://github.com/HansaSandamal/AnimeVerse-Creator-Lab.git',
+    demoLink: 'https://anime-verse-creator-lab.vercel.app/',
+    image: '/projects/animeverse.PNG',
+  },
+  {
+    title: 'Sinhala OCR-Sinhala Handwriting To Text Converter',
+    description: 'AI-powered Sinhala OCR web application that converts handwritten Sinhala text from images into clean, editable Sinhala Unicode text. Built with React and TypeScript, with an Express.js backend integrating Google Gemini 2.5 Flash for multimodal handwriting recognition. Supports image upload, Sinhala text extraction, and accurate preservation of paragraphs and line structure.',
+    technologies: [
+      'React',
+      'TypeScript',
+      'Vite',
+      'Node.js',
+      'Express.js',
+      'Google Gemini API',
+      'Gemini 2.5 Flash',
+      'Google GenAI SDK',
+      'Tailwind CSS'
+    ],
+    aistudioLink: 'https://sinhala-handwriting-to-text-converter-569994134059.asia-southeast1.run.app',
+    demoLink: 'https://next-js-portfolio-hansa.vercel.app/',
+    image: '/projects/SinhalaOCR.PNG',
+  },
+  {
     title: 'Dish-to-Post AI',
     description: 'A web app forTurn your menu into viral-ready social media content. Simply upload your dish images, and our AI crafts engaging posts complete with catchy captions and relevant hashtags to boost your online presence.',
     technologies: ['Google ai Studio', 'FireBase Backend', 'Google Auth', 'Gemini 2.5-flash'],

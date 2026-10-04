@@ -2,7 +2,8 @@ export interface Project {
     title: string;
     description: string;
     technologies: string[];
-    githubLink: string;
+    githubLink?: string;
+    aistudioLink?: string;
     demoLink: string;
     image: string;
 }
