@@ -8,7 +8,7 @@ export const projects: Project[] = [
     technologies: ['React 19', 'TypeScript', 'Tailwind CSS v4', 'Redux Toolkit', 'Vitest Testing', 'Dark & Light Mode', 'Recharts'],
     githubLink: 'https://github.com/HansaSandamal/NexaAdmin.git',
     demoLink: 'https://next-js-portfolio-hansa.vercel.app/',
-    image: '/projects/NexaAdmin.PNG',
+    image: '/projects/NexaAdmin.png',
   },
   {
     title: 'LaughFrame AI',
